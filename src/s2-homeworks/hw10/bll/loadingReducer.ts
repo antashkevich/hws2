@@ -6,7 +6,7 @@ export type PropsType = {
     isLoading: boolean;
 };
 
-export const loadingReducer = (state = initState, action: LoadingActionType): any => {
+export const loadingReducer = (state = initState, action: LoadingActionType): PropsType => {
     switch (action.type) {
         case "CHANGE_LOADING": {
             state.isLoading = action.isLoading
