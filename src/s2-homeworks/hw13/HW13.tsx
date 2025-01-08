@@ -57,7 +57,7 @@ const HW13 = () => {
                         setCode('Неизвестная ошибка!');
                         setImage(errorUnknown);
                         setText('Неизвестная ошибка')
-                        setInfo('Неизвестная ошибка');
+                        setInfo('Error');
                     }
                 }
             })
